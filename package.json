@@ -1,0 +1,21 @@
+{
+  "name": "catalog-data-toolkit",
+  "version": "0.1.0",
+  "description": "Small, tested TypeScript utilities for messy e-commerce catalog data: eBay compatibility lists, vehicle fitment ranges, listing descriptions, HTML cleaning, CSV.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "htmlparser2": "^12.0.0",
+    "sanitize-html": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/sanitize-html": "^2.16.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
